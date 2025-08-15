@@ -1,0 +1,30 @@
+{
+  "name": "example_animation",
+  "author": "SimplePlayerAnimator",
+  "description": "Example animation for the jumping trigger",
+  "emote": {
+    "isLoop": false,
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 10,
+    "stopTick": 10,
+    "bendDegrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "LINEAR",
+        "turn": 0,
+        "rightArm": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": -30,
+          "yaw": 5,
+          "roll": 0,
+          "bend": 60
+        }
+      }
+    ]
+  }
+}
+// Note: This file has to be in the config folder of the modpack in order to function.
