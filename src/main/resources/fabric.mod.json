@@ -1,0 +1,23 @@
+
+{
+  "schemaVersion": 1,
+  "id": "simpleplayeranimator",
+  "version": "1.0.0",
+  "name": "Simple Player Animator",
+  "description": "Custom animation system with bend support and JSON loader",
+  "authors": ["TheCubeCrafter"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.simpleplayeranimator.SimplePlayerAnimator"],
+    "client": ["com.simpleplayeranimator.trigger.TriggerManager"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "player-animation-lib": "*",
+    "bendy-lib": "*"
+  }
+}

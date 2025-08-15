@@ -1,0 +1,31 @@
+[
+  {
+    "name": "draw_sword",
+    "author": "user",
+    "description": "Sword draw animation",
+    "emote": {
+      "isLoop": false,
+      "returnTick": 0,
+      "beginTick": 0,
+      "endTick": 10,
+      "stopTick": 10,
+      "bendDegrees": true,
+      "moves": [
+        {
+          "tick": 0,
+          "easing": "LINEAR",
+          "turn": 0,
+          "rightArm": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "pitch": -45,
+            "yaw": 10,
+            "roll": 0,
+            "bend": 60
+          }
+        }
+      ]
+    }
+  }
+]
