@@ -101,7 +101,7 @@ public class TriggerManager implements ClientModInitializer {
                 }
             }
         } catch (Exception e) {
-            System.err.println("[SPA] Failed to load spa_triggers");
+            System.err.println("[SPA] Failed to load triggers");
             e.printStackTrace();
         }
     }
