@@ -7,7 +7,7 @@
   "description": "Custom animation system with bend support and JSON loader",
   "authors": ["TheCubeCrafter"],
   "contact": {},
-  "license": "MIT",
+  "license": "Apache 2.0",
   "environment": "*",
   "entrypoints": {
     "main": ["com.simpleplayeranimator.SimplePlayerAnimator"],
