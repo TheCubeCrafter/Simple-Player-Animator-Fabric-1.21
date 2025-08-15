@@ -1,7 +1,7 @@
 {
   "name": "example_animation",
   "author": "SimplePlayerAnimator",
-  "description": "Eine Beispielanimation für den Jump-Trigger",
+  "description": "Example animation for the jumping trigger",
   "emote": {
     "isLoop": false,
     "returnTick": 0,
@@ -27,4 +27,4 @@
     ]
   }
 }
-// Hinweis: Diese Datei muss sich im config-Ordner des Modpacks befinden.
+// Note: This file has to be in the config folder of the modpack in order to function.
